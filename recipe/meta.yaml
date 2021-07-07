@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/academictwitteR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/academictwitteR/academictwitteR_{{ version }}.tar.gz
-  sha256: fefed8a5003f8fe65d210358c54731bc7e00dfcc82806c4632ee0aac2bb4c394
+  sha256: 7787d9c0d389fdabb6b525d0b10ff20a2d26c493efe4e03f8a07c9b0aefe93f7
 
 build:
   merge_build_host: true  # [win]
