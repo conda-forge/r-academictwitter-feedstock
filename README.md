@@ -1,11 +1,11 @@
-About r-academictwitter
-=======================
+About r-academictwitter-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-academictwitter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cjbarrie/academictwitteR
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-academictwitter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package to query the Twitter Academic Research Product Track (<https://developer.twitter.com/en/solutions/academic-research>), providing access to full-archive search and other v2 API endpoints. Functions are written with academic research in mind. They provide flexibility in how the user wishes to store collected data, and encourage regular storage of data to mitigate loss when collecting large volumes of tweets. They also provide workarounds to manage and reshape the format in which data is provided on the client side.
 
